@@ -61,22 +61,19 @@ table button {
   border-radius: 2px;
 }
 @media only screen and (max-width: 400px){
-	/*Big smartphones [426px -> 600px]*/
-  table{
+   table{
     font-size: 8px;
     font-weight: 500;
   }
 }
 @media only screen and (max-width: 800px){
-	/*Big smartphones [426px -> 600px]*/
-  table{
+   table{
     font-size: 10px;
     font-weight: 500;
   }
 }
 @media only screen and (max-width: 300px){
-	/*Big smartphones [426px -> 600px]*/
-  table{
+   table{
     font-size: 2px;
     font-weight: 500;
   }
