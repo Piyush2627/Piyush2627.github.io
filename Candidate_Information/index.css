@@ -39,8 +39,10 @@ th {
   width: 100%;
   margin-top: 4px;
 }
-.textarea {
+.textarea, select {
   width: 100%;
+  margin-top: 4px;
+
 }
 .formfill {
   background-color: white;
@@ -60,6 +62,9 @@ table button {
   padding: 0.2%;
   border-radius: 2px;
 }
+option:hover{
+  background-color: brown;
+}
 @media only screen and (max-width: 400px){
    table{
     font-size: 8px;
@@ -73,8 +78,9 @@ table button {
   }
 }
 @media only screen and (max-width: 300px){
+ 
    table{
-    font-size: 2px;
+    font-size: 4px;
     font-weight: 500;
   }
 }
