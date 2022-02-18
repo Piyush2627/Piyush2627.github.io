@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-ul {
+ul{
   list-style: none;
   padding: 0%;
   margin: 0%;
@@ -41,10 +41,26 @@ ul {
 {
   color: orange;
 }
+.proimg img{
+  height: 40%;
+  width: 10%;
+  border-radius: 50%;
+}
+.trainerinfo{
+  width: 50%;
+}
+.t-card{
+  background-color: transparent;
+}
+.t-card img{
+  height: 60vh;
+  width: 50vh;
+}
+ 
+/* top */
 
 
-
-
+ 
 
 
 
@@ -65,5 +81,8 @@ ul {
 }
 .p-one{
   width: 100%;
+}
+.t-card img{
+  height:40vh;
 }
 }
