@@ -65,22 +65,44 @@ body {
   padding: 0%;
   margin: 0%;
   display: flex;
-  margin: 6% 0%;
+  margin: 6% 4%;
   justify-content:space-between ;
   animation: ease-in-out;
 
 }
 .contect-li li{
   background-color:  orange;
-  color:white;
-  padding: 2% 3%;
+  color: black;
+  padding:  2% 3%;
   border-radius: 24%;
 }
+.contect-icon{
+  text-align: center;
+}
 .contect-icon:hover{
-  background-color: aqua;
+  background-color: rgb(255, 145, 0);
  }
-
-
+ a{
+   text-decoration: none;
+ }
+ a:visited{
+   color: white;
+   text-decoration: none;
+ }
+a:after{
+  color: white;
+}
+.transform-body{
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto;
+ }
+.transform-body div{
+  margin:   6%;
+}
+.transform-body img{
+  height:  40vh;
+}
  
 /* top */
 
