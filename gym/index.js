@@ -3,9 +3,7 @@
  var btn=document.getElementById("btn");
  var tabone = document.getElementById("tabone");
 var chackbox=document.getElementById("checkbox");
-var chackeboxc=document.getElementById("checkbox").value;
-console.log(chackeboxc);
-
+ 
 function fun(){
   // if(chackbox=chackeboxc){
   //   console.log("hello");
@@ -29,8 +27,4 @@ function fun(){
 // tab.disabled=true;
 //  }
 // var btn = document.getElementById("disable");
-function enable_text(status)
-{
-status=!status;	
-	document.f1.other_text.disabled = status;
-}
+ 
