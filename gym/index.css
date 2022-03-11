@@ -120,9 +120,18 @@ a:after{
  
   
  
- 
- 
-  
+ /* plans css */
+ .o-br{
+  border-top: 3px solid rgb(255, 145, 0);
+  border-left: 3px solid rgb(255, 145, 0);
+  border-right: 3px solid white;
+ border-bottom:3px solid white;
+ }
+ .cirti
+{
+  width: 100%;
+  padding: 5%;
+}
 
 
 
