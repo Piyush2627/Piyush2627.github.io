@@ -132,8 +132,21 @@ a:after{
   width: 100%;
   padding: 5%;
 }
-
-
+.login-btn
+{
+  background-color: rgb(255, 145, 0);
+  border: none;
+  padding: 10px 15px;
+  color: white;
+}
+.level-card{
+   border-radius: 2vh;
+  width: 90%;
+  margin-top: 2%;
+  border: 2px solid white;
+  background-image: url("wickedbackground.png");
+  background-size: cover;
+}
 
 @media only screen and (max-width: 600px){
 
@@ -155,3 +168,8 @@ a:after{
   height:40vh;
 }
 }
+
+
+
+
+/* copy */
