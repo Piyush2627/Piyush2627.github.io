@@ -4,9 +4,10 @@ function pass(){
     console.log(password);
   if (password== 'shiv')
   {
-      console.log("pass")
+
       location.href = "login.html"
     } else {
+      alert("wrong");
     console.log("fail")
   }
 }

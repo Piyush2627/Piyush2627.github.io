@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mydiv{
+     width: 100%;
+     height: 100vh;
+  }
+.inputfild{
+    width: 100%;
+    height: 20%;
+    text-align: right;
+    border: 0px;
+    background-color: black;
+    color: orange;
+    font-size: 60px;
+    font-weight:bolder;
+    letter-spacing: 0.5vh;
+    font-family: 'Pacifico', cursive;
+
+}
+button{
+     border: 0px;
+    width: 100%;
+    margin: 4%;
+    background-color: rgb(100, 100, 100);
+
+     
+
+ }
+/* .btndiv{
+    height: 100%;
+    width: 100%;
+} */
+ 
+.btndiv{
+     height: 80%;
+     font-size: larger;
+     font-weight: bold;
+}
+.btnhight{
+     height: 20%;
+}
+.isnumb{
+ 
+    color: orange;
+    font-family: 'Pacifico', cursive;
+
+}
