@@ -1,3 +1,6 @@
+*
+{
+ font-family: Arial, Helvetica, sans-serif; }
 li{
     list-style: none;
 }
@@ -69,5 +72,8 @@ iframe{
 }
 .logindiv
 {
-   background-color: #0087ca;
+   background-color: #b3dbf0;
+}
+.profile-img{
+  width: 150px;
 }
