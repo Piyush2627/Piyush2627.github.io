@@ -1,0 +1,69 @@
+li{
+    list-style: none;
+}
+.welcomediv{
+    height: 60vh;
+    background-image: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutdiv{
+  height: 80vh;
+  background-image: url('../img/Screenshot_20220531-140819_Google.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.home-cards:hover{
+background-color:rgb(55, 0, 255) ;
+color: white;
+transition: 1s;
+ }
+ p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.faculty-img{
+
+  height:  50vh;
+  width:  60vh;
+}
+.ourwork-img{
+height: 40vh;
+width: 60ch;
+}
+/* .mapp{
+  height: 50vh;
+width: 200vh;
+} */
+iframe{
+  width: 100%;
+}
+.gallaty-img
+{
+  margin: 2%;
+  width: 95%;
+  height: 95%;
+}
