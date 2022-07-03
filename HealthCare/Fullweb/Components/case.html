@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shlok Multispealist Hospital-Kamrej</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-sm navbar-light m-2" style="user-select: auto;">
+    <div class="container-fluid" style="user-select: auto;">
+      <h3 class="fw-bold text-primary mx-4">SHLOK</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
+        aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation"
+        style="user-select: auto;">
+        <span class="navbar-toggler-icon" style="user-select: auto;"></span>
+      </button>
+      <div class="collapse navbar-collapse d-sx-flex justify-content-end" id="navbarWithDropdown"
+        style="user-select: auto;">
+        <ul class="navbar-nav" style="user-select: auto;">
+          <li class=" hover-underline-animation  " style="user-select: auto;">
+            <a class="nav-link " aria-current="page" href="#" style="user-select: auto;"><b>Home</b></a>
+          </li>
+          <li class=" hover-underline-animation  " style="user-select: auto;">
+            <a class="nav-link " aria-current="page" href="./Profile.html"
+              style="user-select: auto;"><b>Profile</b></a>
+          </li>
+          <li class=" hover-underline-animation  " style="user-select: auto;">
+            <a class="nav-link " aria-current="page" href="./service.html"
+              style="user-select: auto;"><b>services</b></a>
+          </li>
+          <div class="dropdown">
+            <button class=" btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               Employee
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="./Doctor.html">Doctors</form></a></li>
+              <li><a class="dropdown-item" href="#">staff</a></li>
+            </ul>
+          </div>
+        
+          <div class="dropdown">
+            <button class=" btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               Form
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="./admit.html">Admit Form</form></a></li>
+              <li><a class="dropdown-item" href="./treatment.html">treatment Form</a></li>
+              <li><a class="dropdown-item" href="./mediclap.html">mediclaim Form</a></li>
+			  <li><a class="dropdown-item" href="admitview.html">Admit form Details</a></li>
+			  <li><a class="dropdown-item" href="treatmentview.html">Treatmentn form details</a></li>
+			  <li><a class="dropdown-item" href="mediclapview.html">mediclaim Form details</a></li>
+            </ul>
+          </div>
+          <li class=" " style="user-select: auto; ">
+            <a href="./appointment.html"> <button
+                class="btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold"> <b>Make an appointment</b></button>
+            </a>
+          </li>
+          <li class=" " style="user-select: auto; ">
+            <a href="../index.html"> <button
+                class="btn btn-primary rounded-pill  d-none d-sm-block fw-bold"> <b>LOG OUT</b></button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!--case-->
+ <div class="text-center">
+
+  <div class="container mt-5 mb-5 ">
+    <div class="container d-flex align-items-center justify-content-center  ">
+      <div class="  p-5 rounded-3 logindiv">
+	  <h2>ADD CASE</h2><br><br>
+  <form action="newcase.html" method="post">
+    <label><b>Case:</b></label>
+	<input type="radio" name="a" />New Case
+	<input type="radio" name="a" />Old Case<br /><br>
+	<label><b>Patient Name</b></label><br />
+	<input type="text" placeholder="enter your name" class="form-control"/><br><br>
+	<label><b>Doctor</b></label><br />
+ <input list="browsers" name="browser" placeholder="select doctor" required class="form-control">
+  <datalist id="browsers">
+  <select class="form-control">
+    <option value="DR Dhaval">DR Dhaval</option>
+    <option value="DR Shreya">DR Shreya</option>
+    <option value="DR Vishal">DR Vishal</option>
+    <option value="DR Kajal">DR Kajal</option>
+   </select>
+  </datalist><br />
+  <label><b> Case No.</b></label><br>
+   <input type="number"class="form-control" placeholder="enter your case no." required><br>
+
+   <a href="./newcase.html"> <button
+    class="btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold"> <b> </b></button>
+</a>
+          
+		</form>
+		  </div>
+
+    </div>
+  </div>
+ 		 </div>
+
+  
+  
+	
+
+  
+
+
+  <!-- footer -->
+  <div class="container-fluid p-4">
+    <div class="row ">
+      <div class="col-6">
+        <b>ADD:- Dharam sopping ni bajuma bus stend ni same<br>
+          surat road kamrej char rasta <br>
+          Gujrat 394185</b>
+        <br><b>
+        PHONE:- 9913310678 <br>
+        Email:- shlokhospital@gmail.com <br></b>
+      </div>
+      <div class="col-6 text-center" style="margin-top: 10vh;">
+        <!-- Facebook -->
+       <a href="#"> <i class="fab fa-facebook-f"></i></a> &nbsp;&nbsp;
+
+        <!-- Twitter -->
+        <a href="#"> <i class="fab fa-twitter"></a></i>&nbsp;&nbsp;
+
+        <!-- Google -->
+        <a href="#"><i class="fab fa-google"></i></a>&nbsp;&nbsp;
+
+        <!-- Instagram -->
+        <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+
+        <!-- Linkedin -->
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;
+        <!-- Youtube -->
+        <a href="#"> <i class="fab fa-youtube"></i></a>&nbsp;&nbsp;
+        <!-- Whatsapp -->
+        <a href="https://wa.me/6351137499"> <i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;
+       
+      </div>
+
+    </div>
+  
+  <!-- Vendor JS Files -->
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../vendor/php-email-form/validate.js"></script>
+  <script src="../vendor/purecounter/purecounter.js"></script>
+  <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

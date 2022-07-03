@@ -18,7 +18,7 @@
     <link href="../vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Doctor</title>
 </head>
 
 <body>
@@ -39,19 +39,39 @@
                             style="user-select: auto;"><b>Home</b></a>
                     </li>
                     <li class=" hover-underline-animation  " style="user-select: auto;">
-                        <a class="nav-link " aria-current="page" href="#" style="user-select: auto;"><b>Profile</b></a>
+                        <a class="nav-link " aria-current="page" href="./Profile.html"
+                            style="user-select: auto;"><b>Profile</b></a>
                     </li>
                     <li class=" hover-underline-animation  " style="user-select: auto;">
-                        <a class="nav-link " aria-current="page" href="./Components/Contect.html"
-                            style="user-select: auto;"><b>Doctors</b></a>
-                    </li>
-                    <li class=" hover-underline-animation  " style="user-select: auto;">
-                        <a class="nav-link " aria-current="page" href="./Components/Gallary.html"
+                        <a class="nav-link " aria-current="page" href="./service.html"
                             style="user-select: auto;"><b>services</b></a>
                     </li>
-                    </li>
+                    <div class="dropdown">
+                        <button class=" btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                             Employee
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="./Doctor.html">Doctors</form></a></li>
+                            <li><a class="dropdown-item" href="#">staff</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class=" btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Form
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="./admit.html">Admit Form</form></a></li>
+                            <li><a class="dropdown-item" href="./treatment.html">treatment Form</a></li>
+                            <li><a class="dropdown-item" href="./mediclap.html">mediclaim Form</a></li>
+							 <li><a class="dropdown-item" href="admitview.html">Admit form Details</a></li>
+			  <li><a class="dropdown-item" href="treatmentview.html">Treatmentn form details</a></li>
+			  <li><a class="dropdown-item" href="mediclapview.html">mediclaim Form details</a></li>
+                        </ul>
+                    </div>
                     <li class=" " style="user-select: auto; ">
-                        <a href="./Components/Login.html"> <button
+                        <a href="./appointment.html"> <button
                                 class="btn btn-primary rounded-pill mx-3 d-none d-sm-block fw-bold"> <b>Make an
                                     appointment</b></button>
                         </a>
@@ -67,118 +87,160 @@
     </nav>
 
     <!-- nav end -->
-    <div class="container text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nulla commodi officiis atque tempora sed, sint
-        magni non ipsam repudiandae deleniti ab cumque fuga. Accusamus voluptatum aspernatur nesciunt ut consequatur?
-    </div>
-    <div class="container-fluid mt-5 ">
-        <div class="row g-2">
+    <div class="row">
             <div class="col-6">
-                <div class="accordion-item ">
-                    <h2 class="accordion-header mt-3 mb-3" id="headingOne">
-                        <div class="d-flex justify-content-around">
-                            <div class="img-fluid">
-                                <img src="../img/doctors/3.jpg " class="profile-img rounded-circle mx-3" alt="">
-                            </div>
-                            <div class="p-3 mt-3">
-                                <h3>DR.aksdh</h3>
-                                <h6>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, facilis!
-
-                                </h6>
-                            </div>
-                        </div>
-                        <button class="accordion-button mt-3" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            More
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionBasic">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
+             <div class="card" style="width: 18rem;">
+                <img src="../img/dhaval.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                <div class="card-body">
+                 <h5 class="card-title">DR Dhaval Kundariya</h5>
+                    <p class="card-text">MBBS,MHMS</p>
+                    <a href="./drdhaval.html" class="btn btn-primary">more</a>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="accordion-item ">
-                    <h2 class="accordion-header mt-3 mb-3" id="headingtwo">
-                        <div class="d-flex justify-content-around">
-                            <div class="img-fluid">
-                                <img src="../img/doctors/3.jpg " class="profile-img rounded-circle mx-3" alt="">
-                            </div>
-                            <div class="p-3 mt-3">
-                                <h3>DR.aksdh</h3>
-                                <h6>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, facilis!
-
-                                </h6>
-                            </div>
-                        </div>
-                        <button class="accordion-button mt-3" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
-                            More
-                        </button>
-                    </h2>
-                    <div id="collapsetwo" class="accordion-collapse collapse show" aria-labelledby="headingtwo"
-                        data-bs-parent="#accordionBasic">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- footer -->
-    <div class="container-fluid p-4">
-        <div class="row ">
-            <div class="col-2">
-                ADD:-
-                <br>
-                PHONE <br>
-                Email <br>
-            </div>
-            <div class="col-5">
-                <ul class="list-group" style="user-select: auto;">
-                    <li class="list-group-item " aria-current="true" style="user-select: auto;">Cras justo odio</li>
-                    <li class="list-group-item" style="user-select: auto;">Morbi leo risus</li>
-                    <li class="list-group-item" style="user-select: auto;">Porta ac consectetur ac</li>
-                    <li class="list-group-item" style="user-select: auto;">Vestibulum at eros</li>
-                </ul>
-            </div>
-            <div class="col-5">
-                <ul class="list-group" style="user-select: auto;">
-                    <li class="list-group-item " aria-current="true" style="user-select: auto;">Cras justo odio</li>
-                    <li class="list-group-item" style="user-select: auto;">Morbi leo risus</li>
-                    <li class="list-group-item" style="user-select: auto;">Porta ac consectetur ac</li>
-                    <li class="list-group-item" style="user-select: auto;">Vestibulum at eros</li>
-                </ul>
             </div>
         </div>
 
+
+    
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                   <img src="../img/shreya.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                       <h5 class="card-title">DR Shreya Kundariya</h5>
+                       <p class="card-text">MBBS,MHMS</p>
+                     <a href="./drshreya.html" class="btn btn-primary">more</a>
+                      </div>
+            </div>
+         </div>   
+</div>
+<br>
+     
+<div class="row">
+    <div class="col-6">
+     <div class="card" style="width: 18rem;">
+        <img src="../img/vishal.jpg" class="card-img-top" alt="..." style="height: 200px;">
+        <div class="card-body">
+         <h5 class="card-title">DR vishal Hirapara</h5>
+            <p class="card-text">MBBS,MHMS</p>
+            <a href="./drvishal.html" class="btn btn-primary">more</a>
+        </div>
     </div>
-    <div class="w-100 bg-light text-center p-3">
-        @maide all the rigrtht
-        <!-- add containt to  -->
+</div>
+
+
+
+<div class="col-6">
+    <div class="card" style="width: 18rem;">
+           <img src="../img/kajal.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">DR Kajal Hirapara</h5>
+               <p class="card-text">MBBS,MHMS</p>
+             <a href="./drkajal.html" class="btn btn-primary">more</a>
+              </div>
     </div>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../vendor/php-email-form/validate.js"></script>
-    <script src="../vendor/purecounter/purecounter.js"></script>
-    <script src="../vendor/swiper/swiper-bundle.min.js"></script>
+ </div>   
+</div>
+
+    <!--staff-->
+
+    <center>
+        <h1>Staff</h1>
+    </center>
+    <hr>
+         
+<div class="row">
+    <div class="col-6">
+     <div class="card" style="width: 18rem;">
+        <img src="D:\HealthCare\Fullweb\img\doctors\2.jpg" class="card-img-top" alt="..." >
+        <div class="card-body">
+         <h5 class="card-title">Sweta</h5>
+            <p class="card-text">Nurcing</p>
+           
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-6">
+    <div class="card" style="width: 18rem;">
+           <img src="D:\HealthCare\Fullweb\img\doctors\1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">Neel</h5>
+               <p class="card-text">Pharmacy</p>
+             
+              </div>
+    </div>
+ </div>   
+</div><br>
+<div class="row">
+    <div class="col-6">
+     <div class="card" style="width: 18rem;">
+        <img src="D:\HealthCare\Fullweb\img\doctors\4.jpg" class="card-img-top" alt="..." >
+        <div class="card-body">
+         <h5 class="card-title">Riya</h5>
+            <p class="card-text">Nurcing,Pharmacy</p>
+           
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-6">
+    <div class="card" style="width: 18rem;">
+           <img src="D:\HealthCare\Fullweb\img\doctors\3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+               <h5 class="card-title">Piyush</h5>
+               <p class="card-text">Pharmacy</p>
+             
+              </div>
+    </div>
+ </div>   
+</div>
+
+
+
+
+        <!-- footer -->
+        <div class="container-fluid p-4">
+            <div class="row ">
+                <div class="col-6">
+                    <b>ADD:- Dharam sopping ni bajuma bus stend ni same<br>
+                        surat road kamrej char rasta <br>
+                        Gujrat 394185</b>
+                    <br><b>
+                        PHONE:- 9913310678 <br>
+                        Email:- shlokhospital@gmail.com <br></b>
+                </div>
+                <div class="col-6 text-center" style="margin-top: 10vh;">
+                    <!-- Facebook -->
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a> &nbsp;&nbsp;
+
+                    <!-- Twitter -->
+                    <a href="#"> <i class="fab fa-twitter"></a></i>&nbsp;&nbsp;
+
+                    <!-- Google -->
+                    <a href="#"><i class="fab fa-google"></i></a>&nbsp;&nbsp;
+
+                    <!-- Instagram -->
+                    <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+
+                    <!-- Linkedin -->
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;
+                    <!-- Youtube -->
+                    <a href="#"> <i class="fab fa-youtube"></i></a>&nbsp;&nbsp;
+                    <!-- Whatsapp -->
+                    <a href="https://wa.me/8320063379"> <i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;
+
+                </div>
+
+            </div>
+
+            <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="../vendor/glightbox/js/glightbox.min.js"></script>
+            <script src="../vendor/php-email-form/validate.js"></script>
+            <script src="../vendor/purecounter/purecounter.js"></script>
+            <script src="../vendor/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

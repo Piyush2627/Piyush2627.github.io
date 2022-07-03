@@ -77,3 +77,11 @@ iframe{
 .profile-img{
   width: 150px;
 }
+.homediv-grid
+{
+  align-items: center;
+}
+.card-height{
+  height: 350px;
+}
+ 
