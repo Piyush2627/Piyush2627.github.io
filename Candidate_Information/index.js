@@ -8,9 +8,11 @@ function createfunction() {
    var td1=document.createElement('td');
    td1.innerText="1"
    var td2=document.createElement('td');
-   td2.innerText="213"
+   var candiateid=document.getElementById('candiateid').value;
+   td2.innerText=candiateid;
    var td3=document.createElement('td');
-   td3.innerText="213"
+   var cotectnumber=document.getElementById('cotectnumber');
+   td3.innerText=cotectnumber;
    var td4=document.createElement('td');
    td4.innerText="213"
    var td5=document.createElement('td');
