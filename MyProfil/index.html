@@ -15,10 +15,14 @@
         <nav>
             <ul class="flex justify-between px-4 pt-2 font-semibold text-lg">
                 <li class="text-blue-500 font-bold">
+                    <div class="h-10 w-10 rounded-full bg-cover"
+                        style="background-image: url(./images/PicsArt_05-28-11.33.35.jpg);"></div>
+                </li>
+                <li class=" text-white font-bold text-2xl">
                     LOGO
                 </li>
                 <li class="">
-                    <button class="bg-blue-500 hover:bg-blue-700 btn px-2 p-1.5 rounded-md text-white " onclick="main()"
+                    <button class=" bg-white hover:bg-white  btn px-2 p-1.5 rounded-md  text-blue-500 " onclick="main()"
                         id="btn">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -51,7 +55,7 @@
                 <button class="rounded-md bg-blue-600 px-3 py-2 font-bold mr-2 text-white">My work</button>
                 <button class="rounded-md bg-blue-600 px-3 py-2 font-bold mr-2 text-white">My work</button>
             </div>
-            <div class="text-right pt-5 pl-10 font-bold">
+            <div class="text-right pt-8 pl-10 font-bold">
                 <p class="text-3xl py-3">About Me</p>
                 <p class="text-justify pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laboriosam
                     nam magnam sunt facilis fuga facere minus tempora dignissimos molestiae.</p>
@@ -85,10 +89,10 @@
             <p class="text-gray-700">This is my cool new card!</p>
         </div>
     </div>
-    <div class="container mt-10 mx-auto p-2 md:p-0">
+    <div class="container mt-6 mx-auto p-2 md:p-0">
         <div class="shadow-lg flex flex-wrap w-full lg:w-4/5 mx-auto">
-            <div class="bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative"
-                style="background-image:url('https://images7.alphacoders.com/347/347549.jpg')">
+            <div class=" bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative rounded-md"
+                style="background-image:url('./images/IMG20180521092403.jpg')">
                 <div class="absolute text-xl">
                     <i class="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
                 </div>
@@ -105,8 +109,10 @@
                         </div>
 
                         <div class="w-full lg:w-3/5 lg:px-3">
-                            <p class="text-md mt-6 lg:mt-0 text-justify md:text-left text-sm "> 
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error alias nobis minima quibusdam deleniti at eius possimus? Ratione repudiandae quam corporis sit necessitatibus at sint dolorum, ex perferendis, nostrum dolorem?
+                            <p class="text-md mt-6 lg:mt-0 text-justify md:text-left text-sm ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error alias nobis minima
+                                quibusdam deleniti at eius possimus? Ratione repudiandae quam corporis sit
+                                necessitatibus at sint dolorum, ex perferendis, nostrum dolorem?
                             </p>
                         </div>
                         <div class="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
@@ -119,20 +125,12 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        The Main thing is to know
-        <div class="flex px-4">
-            <div class=" h-80 m-1 rounded-3xl bg-blue-200 flex align-bottom  w-2/3 " id="div1">
-                <div class="bg-blue-500 rounded-2xl p-2 w-10 h-10 ml-2">logo </div>
-            </div>
-            <div class=" h-80 m-1 rounded-3xl bg-blue-200 flex align-bottom " id="div2">
-                <div class="bg-blue-500 rounded-2xl p-2 w-10 h-10 ml-2">logo </div>
-            </div>
-            <div class=" h-80 m-1 rounded-3xl bg-blue-200 flex align-bottom " id="div3"> 
-                <div class="bg-blue-500 rounded-2xl p-2 w-10 h-10 ml-2">logo </div>
-            </div>
-          </div>
+    <div class="shadow-lg rounded-lg overflow-hidden">
+        <div class="py-3 px-5 bg-gray-50">Doughnut chart</div>
+        <canvas class="p-6" id="chartDoughnut"></canvas>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./index.js"></script>
 </body>
+
 </html>
